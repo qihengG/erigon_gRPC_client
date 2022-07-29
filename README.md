@@ -10,10 +10,12 @@ Test connection to erigon through gRPC
 3. Run `go run downloaderClient.go`
 
 Sample Output:
+```
 Connected to downloader
 Starting to query download progress
 Get response form downloader @ 127.0.0.1:9093
 Curr progress: 0.97
+```
 
 Reference:
 
