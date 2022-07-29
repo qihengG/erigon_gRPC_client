@@ -2,10 +2,10 @@
 Test connection to erigon through gRPC
 
 1. Start an erigon node
-./build/bin/erigon --datadir goerli --chain goerli --metrics --metrics.expensive --downloader.api.addr 127.0.0.1:9093
+`./build/bin/erigon --datadir goerli --chain goerli --metrics --metrics.expensive --downloader.api.addr 127.0.0.1:9093`
 
 2. Start a separate downloader
-./build/bin/downloader --downloader.api.addr 127.0.0.1:9093
+`./build/bin/downloader --downloader.api.addr 127.0.0.1:9093`
 
 3. Run `go run downloaderClient.go`
 
